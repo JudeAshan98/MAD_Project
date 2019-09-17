@@ -30,7 +30,7 @@ public class spalsh extends AppCompatActivity {
                 }catch (Exception e){
                     e.printStackTrace();
                 }finally {
-                    Intent intent = new Intent(getApplicationContext(),settings.class);
+                    Intent intent = new Intent(getApplicationContext(),bonusLevel.class);
                     startActivity(intent);
                     finish();
                 }
